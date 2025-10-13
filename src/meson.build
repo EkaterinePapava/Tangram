@@ -15,11 +15,6 @@ configure_file(
   install_dir: get_option('bindir')
 )
 
-blueprint_compiler = find_program(
-  '/app/bin/blueprint-compiler',
-  '../blueprint-compiler/blueprint-compiler.py',
-  'blueprint-compiler'
-)
 gjspack = find_program('../troll/gjspack/bin/gjspack')
 gresource = custom_target('gjspack',
   input: ['main.js', '../po/POTFILES'],
@@ -30,7 +25,6 @@ gresource = custom_target('gjspack',
     '--prefix', '/re/sonny/Tangram',
     '--project-root', meson.source_root(),
     '--resource-root', meson.project_source_root() / 'src',
-    '--blueprint-compiler', blueprint_compiler,
     '--no-executable',
     '@INPUT0@',
     '--potfiles', '@INPUT1@',
