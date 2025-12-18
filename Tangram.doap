@@ -21,7 +21,7 @@
   <maintainer>
     <foaf:Person>
       <foaf:name>Sonny Piers</foaf:name>
-      <foaf:mbox rdf:resource="mailto:sonnyp@gnome.org" />
+      <foaf:mbox rdf:resource="mailto:tangram@sonny.re" />
       <foaf:account>
         <foaf:OnlineAccount>
             <foaf:accountServiceHomepage rdf:resource="https://github.com/" />
@@ -30,7 +30,9 @@
       </foaf:account>
       <foaf:account>
         <foaf:OnlineAccount>
-          <foaf:accountServiceHomepage rdf:resource="https://gitlab.gnome.org" />
+          <foaf:accountServiceHomepage
+            rdf:resource="https://gitlab.gnome.org"
+          />
           <foaf:accountName>sonny</foaf:accountName>
         </foaf:OnlineAccount>
       </foaf:account>

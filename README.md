@@ -183,3 +183,7 @@ Icon by [Tobias Bernard](https://tobiasbernard.com/)
 Inspired by [GNOME Web](https://wiki.gnome.org/Apps/Web), [Rambox](https://rambox.pro/#home) and [Franz](https://meetfranz.com/).
 
 See also [Wavebox](https://wavebox.io/) and [Station](https://getstation.com/).
+
+## License
+
+GPL-3.0
